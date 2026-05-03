@@ -98,7 +98,7 @@ Run backend:
 npm start
 ```
 
-<img width="1277" height="566" alt="Frontsetup" src="https://github.com/user-attachments/assets/e49bc1b0-5803-4b50-a957-a79883056ea4" />
+
 <img width="1259" height="170" alt="MongoDbConnect (2)" src="https://github.com/user-attachments/assets/cb05b8e5-9a8e-4081-a848-1ac819980eba" />
 
 ---
@@ -110,7 +110,7 @@ cd ../frontend
 npm install
 npm start
 ```
-![Uploading Frontsetup.png…]()
+<img width="1277" height="566" alt="Frontsetup" src="https://github.com/user-attachments/assets/e49bc1b0-5803-4b50-a957-a79883056ea4" />
 
 
 ---
