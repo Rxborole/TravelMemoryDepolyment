@@ -98,7 +98,9 @@ Run backend:
 npm start
 ```
 
-<img width="1413" height="190" alt="DB_connection_success" src="https://github.com/user-attachments/assets/c7977831-9762-43fd-ba92-1bee6fccb985" />
+<img width="1277" height="566" alt="Frontsetup" src="https://github.com/user-attachments/assets/e49bc1b0-5803-4b50-a957-a79883056ea4" />
+<img width="1259" height="170" alt="MongoDbConnect (2)" src="https://github.com/user-attachments/assets/cb05b8e5-9a8e-4081-a848-1ac819980eba" />
+
 ---
 
 ### 3. Frontend Setup
@@ -108,7 +110,8 @@ cd ../frontend
 npm install
 npm start
 ```
-<img width="1827" height="816" alt="Travelapp_blog" src="https://github.com/user-attachments/assets/9396bc04-cdb9-45ff-b4a7-3e36cfd971f4" />
+![Uploading Frontsetup.png…]()
+
 
 ---
 
@@ -119,8 +122,9 @@ npm start
 * Hosted on EC2
 * Managed using PM2
 * Connected to MongoDB Atlas
+<img width="1234" height="240" alt="MongoDbConnect" src="https://github.com/user-attachments/assets/7d37a06f-d0bb-4b20-b9dc-53d7d2712310" />
 
-<img width="972" height="182" alt="EC2_db_conn" src="https://github.com/user-attachments/assets/fd7354ab-63ba-43e4-8fe6-a62849f2c899" />
+
 
 ### 🔹 Frontend Deployment
 
@@ -128,40 +132,47 @@ npm start
 * Served via Nginx
 
 ### 🔹 Reverse Proxy
-<img width="1607" height="758" alt="Nginx_installed_EC2" src="https://github.com/user-attachments/assets/9b1597dd-0e66-4195-8d59-97332514d22b" />
+
+<img width="1270" height="606" alt="ngnix" src="https://github.com/user-attachments/assets/fa6591b5-9dde-43ad-a16c-e78028d1e1b1" />
 
 * Nginx routes:
 
   * `/` → React frontend
   * `/api` → Node backend
-<img width="1788" height="763" alt="Travelapp_from_EC2IP" src="https://github.com/user-attachments/assets/67b560eb-4db0-4789-9881-b3747228be90" />
+
+<img width="1265" height="535" alt="Nginx routes" src="https://github.com/user-attachments/assets/54402e26-7568-4b6c-861d-c79a27944bac" />
 
 ### 🔹 Load Balancing
 
 * AWS Application Load Balancer
 * Multiple EC2 instances for scalability
-  <img width="1556" height="347" alt="Multiple_EC2_Instances" src="https://github.com/user-attachments/assets/5da307c0-99b5-46ca-9495-38f1cb152309" />
+  
+<img width="1255" height="530" alt="Load Balancing" src="https://github.com/user-attachments/assets/88475342-32f3-4b76-9238-20f91eed4d79" />
 
 #### Testing Load Balancer.
   *Stoped an EC2 instance
-  <img width="1566" height="660" alt="Instance_stopped" src="https://github.com/user-attachments/assets/36542c58-0d10-477d-a904-7ec155f12397" />
+
+<img width="1262" height="521" alt="Testing Load Balancer" src="https://github.com/user-attachments/assets/d45dd301-c8cd-4609-9d59-858ccd56d4bb" />
 
  * Browse the DNS of Load Balancer, The site should load fine.
-   <img width="1587" height="835" alt="LB_working" src="https://github.com/user-attachments/assets/deff7838-60ea-4f4a-82c6-0c80857496cc" />
-
   
+
+  <img width="1215" height="630" alt="DNS of Load Balancer" src="https://github.com/user-attachments/assets/8dbf3d8b-b3f3-4192-a7d3-aae807f18f73" />
+
 
 ### 🔹 Domain & SSL
 
 * Domain configured via Cloudflare
-<img width="1823" height="872" alt="webapp_site" src="https://github.com/user-attachments/assets/b60a8b95-5c6f-42ad-9748-0420bf114608" />
+
+<img width="1919" height="820" alt="Domain" src="https://github.com/user-attachments/assets/b39e12ba-3a6b-4a7a-9e45-406f5ccf9437" />
 
   
 * SSL enabled using:
 
   * Cloudflare (edge)
   * AWS ACM (origin)
-<img width="1820" height="840" alt="webapp_with_https" src="https://github.com/user-attachments/assets/691c14fc-121b-4d66-b39a-0292d931f554" />
+<img width="1820" height
+<img width="1919" height="820" alt="Domain" src="https://github.com/user-attachments/assets/b42fcb0d-0292-45dc-a8f6-4ad0aad7325d" />
 
 
 ---
@@ -169,7 +180,7 @@ npm start
 ## 🌐 Live URL
 
 ```
-https://jillsav.shop
+https://cloudcraft-lab.com
 ```
 
 ## 📦 Key DevOps Concepts Demonstrated
@@ -196,7 +207,7 @@ https://jillsav.shop
 
 ## 👤 Author
 
-**Jills Varghese**
+**Rupesh Borole**
 
 ---
 
