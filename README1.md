@@ -169,7 +169,7 @@ npm start
 ## 🌐 Live URL
 
 ```
-https://jillsav.shop
+https://cloudcraft-lab.com
 ```
 
 ## 📦 Key DevOps Concepts Demonstrated
@@ -196,7 +196,7 @@ https://jillsav.shop
 
 ## 👤 Author
 
-**Jills Varghese**
+**Rupesh Borole**
 
 ---
 
